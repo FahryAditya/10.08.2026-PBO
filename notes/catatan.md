@@ -111,4 +111,22 @@ public class ContohReturn {
         System.out.println("Hasil penjumlahan: " + hasil); // output: 8
     }
 }
-```
+
+
+
+Aksesabilitas               public           private          protected      defualt
+Dari kelas yang sama        Ya               Tidak            Tidak           Tidak
+
+Dari kelas turunannya       Ya               Tidak            Ya              Tidak
+
+Dari Sembarang kelas dalam 
+paket yang sama             Ya               Tidak            Ya              Ya
+
+Dari Sembarang kelas luar
+paket                       Ya               Tidak            Tidak           Tidak      
+
+Dari subkelas dalam 
+paket yang sama            Ya                Tidak           Ya                Ya
+
+Dari Subkelas di luar
+paket                      Ya                Tidak            Ya             Tidak

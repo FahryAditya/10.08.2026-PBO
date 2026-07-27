@@ -1,4 +1,6 @@
-class TokoHp {
+package enkapsulasi;
+
+public class TokoHp {
 
     private String namaToko;
     private String alamat;

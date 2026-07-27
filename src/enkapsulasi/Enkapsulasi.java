@@ -1,13 +1,11 @@
-package belajarjava;
+package enkapsulasi;
 
 public class Enkapsulasi {
 
-    // Private (tidak bisa diakses langsung)
     private String merek;
     private String warna;
     private int harga;
 
-    // Setter
     public void setMerek(String merek) {
         this.merek = merek;
     }
@@ -20,7 +18,6 @@ public class Enkapsulasi {
         this.harga = harga;
     }
 
-    // Getter
     public String getMerek() {
         return merek;
     }
@@ -41,7 +38,6 @@ public class Enkapsulasi {
     }
 
     public static void main(String[] args) {
-
         TokoHp toko = new TokoHp();
         toko.setNamaToko("Adresteia Phone Store");
         toko.setAlamat("Balikpapan");
@@ -67,34 +63,5 @@ public class Enkapsulasi {
         hp1.info();
         hp2.info();
         hp3.info();
-    }
-}
-
-class TokoHp {
-
-    private String namaToko;
-    private String alamat;
-
-    public void setNamaToko(String namaToko) {
-        this.namaToko = namaToko;
-    }
-
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
-    }
-
-    public String getNamaToko() {
-        return namaToko;
-    }
-
-    public String getAlamat() {
-        return alamat;
-    }
-
-    public void infoToko() {
-        System.out.println("===== TOKO HP =====");
-        System.out.println("Nama Toko : " + getNamaToko());
-        System.out.println("Alamat    : " + getAlamat());
-        System.out.println("===================");
     }
 }
