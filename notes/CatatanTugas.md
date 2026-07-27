@@ -1,0 +1,1 @@
+memahami class , object dan ekapsulasi dan atribute
