@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        OperasiBilangan opl = new OperasiBilangan();
+
+        opl.setA(10);
+        opl.setB(20);
+        opl.info();
     }
 }
