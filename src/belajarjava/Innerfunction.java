@@ -7,14 +7,22 @@ public class Innerfunction {
         return panjang * lebar;
     }
 
+    public static int inputAngka(Scanner scanner, String label) {
+        while (true) {
+            System.out.print(label);
+            if (scanner.hasNextInt()) {
+                return scanner.nextInt();
+            }
+            System.out.println("Input tidak valid, masukkan angka bulat!");
+            scanner.nextLine();
+        }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan panjang: ");
-        int panjang = scanner.nextInt();
-
-        System.out.print("Masukkan lebar: ");
-        int lebar = scanner.nextInt();
+        int panjang = inputAngka(scanner, "Masukkan panjang: ");
+        int lebar = inputAngka(scanner, "Masukkan lebar: ");
 
         int luas = hitungLuasPersegi(panjang, lebar);
         System.out.println("Luas persegi: " + luas);
