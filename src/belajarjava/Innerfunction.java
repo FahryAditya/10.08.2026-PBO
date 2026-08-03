@@ -3,7 +3,7 @@ package belajarjava;
 import java.util.Scanner;
 
 public class Innerfunction {
-    public static int hitungluaspersegi(int panjang, int lebar) {
+    public static int hitungLuasPersegi(int panjang, int lebar) {
         return panjang * lebar;
     }
 
@@ -16,7 +16,7 @@ public class Innerfunction {
         System.out.print("Masukkan lebar: ");
         int lebar = scanner.nextInt();
 
-        int luas = hitungluaspersegi(panjang, lebar);
+        int luas = hitungLuasPersegi(panjang, lebar);
         System.out.println("Luas persegi: " + luas);
     }
 }

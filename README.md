@@ -30,7 +30,13 @@ adresteia/
 └── html/                                 # File HTML pendukung
 ```
 
-## Cara Kompilasi & Jalankan
+### Cara paling mudah (VS Code)
+
+1. Buka file `.java` yang mau dijalankan (misal `src/kasir/AplikasiKasir.java`).
+2. Klik tombol **Run** (▶) di pojok kanan atas editor.
+3. Program langsung dikompilasi & dijalankan otomatis — tidak perlu perintah manual.
+
+> Semua kode dikompilasi ke folder `bin/` lalu dijalankan berdasarkan package-nya.
 
 ### Kompilasi semua file sekaligus
 
@@ -38,7 +44,7 @@ adresteia/
 javac -d bin src/**/*.java
 ```
 
-### Menjalankan program
+### Menjalankan program manual
 
 | Program | Perintah |
 |---------|----------|
@@ -51,9 +57,9 @@ javac -d bin src/**/*.java
 | AplikasiKasir | `java -cp bin kasir.AplikasiKasir` |
 | Main | `java -cp bin belajarjava.Main` |
 
-### Atau gunakan Code Runner (VS Code)
+### Alternatif: Code Runner (VS Code)
 
-Install ekstensi **Code Runner**, lalu tekan `Ctrl+Alt+N` untuk compile & run file yang sedang dibuka.
+Jika memakai ekstensi **Code Runner**, tekan `Ctrl+Alt+N` untuk compile & run file yang sedang dibuka (tombol ▶ di pojok kanan atas juga bisa).
 
 ## Materi yang Dipelajari
 
