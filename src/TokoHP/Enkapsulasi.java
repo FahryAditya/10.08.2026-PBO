@@ -1,4 +1,4 @@
-package enkapsulasi;
+package TokoHP;
 
 public class Enkapsulasi {
 

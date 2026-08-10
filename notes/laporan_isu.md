@@ -26,6 +26,7 @@ Build check: `javac` semua file → **berhasil (exit 0)**, tanpa error kompilasi
 
 ---
 
+
 ### 2. Rincian per Folder (Tugas & Isinya)
 
 | Folder / File | Tugas | Status |
