@@ -27,7 +27,6 @@ adresteia/
 │   └── catatan.md                        # Catatan belajar Java
 ├── lib/                                  # Dependencies (JAR)
 ├── bin/                                  # Output compiled
-└── html/                                 # File HTML pendukung
 ```
 
 ### Cara paling mudah (VS Code)
