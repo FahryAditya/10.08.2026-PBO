@@ -5,5 +5,10 @@ public class App {
         opl.setA(10);
         opl.setB(20);
         opl.info();
+        System.out.println(opl.getA() + " + " + opl.getB() + " = " + opl.getHasil());
+        System.out.println(opl.getA() + " - " + opl.getB() + " = " + opl.getHasil());
+        System.out.println(opl.getA() + " * " + opl.getB() + " = " + opl.getHasil());
+        System.out.println(opl.getA() + " / " + opl.getB() + " = " + opl.getHasil());
+        System.out.println(opl.getA() + " % " + opl.getB() + " = " + opl.getHasil());
     }
 }

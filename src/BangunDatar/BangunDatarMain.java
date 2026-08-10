@@ -57,11 +57,15 @@ public class BangunDatarMain {
         System.out.printf("  %-10s : %s%n", "Luas", df.format(lingkaranZ.hitungLuas()));
         System.out.printf("  %-10s : %s%n", "Keliling", df.format(lingkaranZ.hitungKeliling()));
         System.out.println(baris);
+        System.out.println("   Created By : Prabowo Galih Wibowo");
+        
 
         // fungsi %sn%n adalah untuk membuat baris baru
         // fungsi %-12s adalah untuk membuat spasi 12 karakter
         // fungsi %d adalah untuk membuat bilangan bulat
         // fungsi %s adalah untuk membuat string
-        // fungsi %n adalah untuk membuat baris baru
+        // fungsi %n adalah untuk membuat baris baru dan di akhiri dengan newline
+        // fungsi \n adalah untuk membuat baris baru dan tidak di akhiri dengan newline 
+        // fungsi %f adalah untuk membuat bilangan desimal
     }
 }
