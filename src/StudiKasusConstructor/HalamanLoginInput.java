@@ -18,9 +18,9 @@ public class HalamanLoginInput {
         System.out.println("Pilih Mode Simulasi:");
         System.out.println("1. Registrasi TANPA Constructor (Objek dibuat duluan, data diisi belakangan)");
         System.out.println("2. Registrasi PAKAI Constructor (Wajib input Email & Password sekaligus)");
-        System.out.print("PILIHAN ANDA (1/2): ");
+        System.out.print("PILIHAN ANDA (1/2): ");    // ini cuman teks
 
-        String pilihan = scanner.nextLine().trim();
+        String pilihan = scanner.nextLine().trim(); //fungsi trim adalah buat menghapus spasi kosong yang ada di inputan
 
         System.out.println("\n-------------------------------------------------");
 
