@@ -21,6 +21,7 @@ class AkunTanpaConstructor {
     }
 }
 
+
 // 2. PAKAI CONSTRUCTOR (Data wajib diisi saat objek dibuat)
 class AkunDenganConstructor {
     String email;
