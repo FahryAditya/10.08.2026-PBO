@@ -24,7 +24,7 @@ public class Karyawan {
         System.out.println("ID Karyawan : " + idKaryawan);
         System.out.println("Nama        : " + nama);
         // String.format "%,.0f" digunakan untuk memformat angka dengan pemisah ribuan
-        // tanpa desimal
         System.out.println("Gaji Pokok  : Rp " + String.format("%,.0f", gajiPokok));
-    }
+       // tanpa desimal
+     }
 }
